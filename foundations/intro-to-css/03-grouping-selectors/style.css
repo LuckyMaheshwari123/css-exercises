@@ -1,1 +1,14 @@
 /* Add CSS Styling */
+.simple{
+    background-color: black;
+    color: white;
+}
+
+.not{
+    background-color: yellow;
+}
+
+.simple,.not{
+    font-size: 28px;
+    font-family:sans-serif;
+}
