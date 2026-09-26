@@ -36,6 +36,15 @@ button {
   padding: 8px 16px;
 }
 
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Keeps the header above other elements */
+  padding: 16PX;
+}
 .content {
   flex: 1;
   display: flex;
